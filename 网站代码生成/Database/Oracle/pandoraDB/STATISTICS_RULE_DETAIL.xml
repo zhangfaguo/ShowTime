@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="RULEID" property="Ruleid"/>
+<add name="URL" property="Url"/>
+</columns>

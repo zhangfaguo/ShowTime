@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="URL" property="Url"/>
+<add name="TYPE" property="Type"/>
+<add name="DESCRIPTION" property="Description"/>
+<add name="CONTACT" property="Contact"/>
+<add name="PHONE" property="Phone"/>
+<add name="CREATETIME" property="Createtime"/>
+<add name="SOURCE" property="Source"/>
+<add name="IP" property="Ip"/>
+<add name="USER_ID" property="UserId"/>
+</columns>

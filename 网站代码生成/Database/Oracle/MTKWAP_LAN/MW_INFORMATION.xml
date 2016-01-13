@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="TITLE" property="Title"/>
+<add name="CATEGORY_ID" property="CategoryId"/>
+<add name="USER_ID" property="UserId"/>
+<add name="ISTOP" property="IsTop"/>
+<add name="ISESSENTIAL" property="IsEssential"/>
+<add name="ISCOMMENT" property="IsComment"/>
+<add name="LASTTOPTIME" property="LastTopTime"/>
+<add name="PRESETVIEWTOTAL" property="PresetViewTotal"/>
+<add name="VIEWTOTAL" property="ViewTotal"/>
+<add name="CONTENTV1" property="ContentV1"/>
+<add name="CONTENTV2" property="ContentV2"/>
+<add name="KEYWORDS" property="Keywords"/>
+<add name="PUBLISHFROM" property="PublishFrom"/>
+<add name="SOURCEFROM" property="SourceFrom"/>
+<add name="CREATETIME" property="CreateTime"/>
+<add name="VIEWDATETIME" property="ViewDateTime"/>
+<add name="HASIMG" property="HasImg"/>
+<add name="COMMENTTOTAL" property="CommentTotal"/>
+<add name="LASTMODIFYADMIN_ID" property="LastModifyAdminId"/>
+<add name="LASTMODIFYTIME" property="LastModifyTime"/>
+<add name="LASTREPLYUSER_ID" property="LastReplyUserId"/>
+<add name="LASTREPLYTIME" property="LastReplyTime"/>
+<add name="LASTREPLYUSERNAME" property="LastReplyUsername"/>
+<add name="AUDITDATETIME" property="AuditDateTime"/>
+<add name="AUDITADMIN_ID" property="AuditAdminId"/>
+<add name="AUDITREASON" property="AuditReason"/>
+<add name="STATE" property="State"/>
+<add name="ISVALID" property="IsValid"/>
+<add name="FLOWERS" property="Flowers"/>
+<add name="EGGS" property="Eggs"/>
+<add name="INFOTYPE" property="InfoType"/>
+<add name="REPLYREMIND" property="ReplyRemind"/>
+</columns>

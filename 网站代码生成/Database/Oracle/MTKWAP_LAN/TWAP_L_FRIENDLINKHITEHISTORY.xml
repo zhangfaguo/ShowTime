@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="FRIENDLIKERECORD_ID" property="FriendlikerecordId"/>
+<add name="USER_ID" property="UserId"/>
+<add name="AGENTINFO" property="Agentinfo"/>
+<add name="CREATETIME" property="Createtime"/>
+<add name="SESSIONID" property="Sessionid"/>
+</columns>

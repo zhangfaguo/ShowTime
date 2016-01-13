@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="REFERRER_ID" property="ReferrerId"/>
+<add name="PRESENTEE_ID" property="PresenteeId"/>
+<add name="ORDER_CODE" property="OrderCode"/>
+<add name="PRODUCT_CODE" property="ProductCode"/>
+<add name="ORDER_QUANTITY" property="OrderQuantity"/>
+<add name="AMOUNT" property="Amount"/>
+</columns>

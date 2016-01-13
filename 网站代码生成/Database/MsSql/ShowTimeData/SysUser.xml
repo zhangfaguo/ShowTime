@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="Id" property="Id"/>
+<add name="Name" property="Name"/>
+<add name="Password" property="Password"/>
+<add name="RealName" property="RealName"/>
+<add name="Tel" property="Tel"/>
+<add name="Statue" property="Statue"/>
+</columns>

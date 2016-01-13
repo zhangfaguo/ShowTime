@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="CONTENTS" property="Contents"/>
+<add name="INFO_ID" property="InfoId"/>
+<add name="USER_ID" property="UserId"/>
+<add name="CREATETIME" property="CreateTime"/>
+<add name="AUDITDATETIME" property="AuditDateTime"/>
+<add name="AUDITADMIN_ID" property="AuditAdminId"/>
+<add name="AUDITREASON" property="AuditReason"/>
+<add name="STATE" property="State"/>
+<add name="LASTMODIFYTIME" property="LastModifyTime"/>
+<add name="LASTMODIFYADMIN_ID" property="LastModifyAdminId"/>
+<add name="ISVALID" property="IsValid"/>
+<add name="ADMINREPLY" property="AdminReply"/>
+<add name="CATEGORY_ID" property="CategoryId"/>
+</columns>

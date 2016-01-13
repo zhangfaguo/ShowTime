@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="TITLE" property="Title"/>
+<add name="NOVELCATEGORY_ID" property="NovelcategoryId"/>
+<add name="USER_ID" property="UserId"/>
+<add name="PRESETVIEWTOTAL" property="Presetviewtotal"/>
+<add name="VIEWTOTAL" property="Viewtotal"/>
+<add name="COMMENTTOTAL" property="Commenttotal"/>
+<add name="DISCRIPTION" property="Discription"/>
+<add name="IMAGE" property="Image"/>
+<add name="KEYWORDS" property="Keywords"/>
+<add name="CREATETIME" property="Createtime"/>
+<add name="LASTMODIFYADMIN_ID" property="LastmodifyadminId"/>
+<add name="LASTMODIFYTIME" property="Lastmodifytime"/>
+<add name="AUDITDATETIME" property="Auditdatetime"/>
+<add name="AUDITADMIN_ID" property="AuditadminId"/>
+<add name="AUDITREASON" property="Auditreason"/>
+<add name="STATE" property="State"/>
+<add name="ISVALID" property="Isvalid"/>
+<add name="ISCOMMENT" property="Iscomment"/>
+</columns>

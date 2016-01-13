@@ -1,0 +1,159 @@
+﻿@model ShowTime.Controllers.DTO.SysFunctionDTO.SaveModel
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="easyui-panel" style="padding: 5px">
+    <table title="功能列表" id="grd" class="easyui-treegrid"
+        data-options="
+                url: '/SysFunction/IndexJson',
+                method: 'post',
+                rownumbers: true,
+                onContextMenu:showMenu,
+                toolbar:'#tb',
+                idField: 'Id',
+                treeField: 'Name'
+            ">
+        <thead>
+            <tr>
+                <th data-options="field:'Name'" width="220">菜单名称</th>
+                <th data-options="field:'Style'" width="100">菜单样式</th>
+                <th data-options="field:'Area'" width="150">区域</th>
+                <th data-options="field:'Controller'" width="150">控制器</th>
+                <th data-options="field:'Action'" width="150">响应</th>
+                <th data-options="field:'IsMenuName'" width="150">是否是菜单</th>
+            </tr>
+        </thead>
+    </table>
+    <div id="tb">
+        <a href="javascript:;" class="easyui-linkbutton" id="btnAdd">增加</a>
+    </div>
+</div>
+
+<div id="mm" class="easyui-menu" style="width: 120px;" data-options="hide:true,onClick:add">
+    <div data-options="iconCls:'icon-add',types:1">新增</div>
+    <div data-options="iconCls:'icon-edit',types:2">编辑</div>
+    <div data-options="iconCls:'icon-remove',types:3">删除</div>
+
+</div>
+<div id="dlg" class="easyui-dialog" data-options="closed:true,title:'功能编辑',width:700,buttons:'#btn'">
+    <form id="ff">
+        <dl>
+            <dt>功能名称</dt>
+            <dd>@Html.TextBoxFor(c => c.Name)</dd>
+        </dl>
+        <dl>
+            <dt>样式名称</dt>
+            <dd>@Html.TextBoxFor(c => c.Style)</dd>
+        </dl>
+
+        <dl>
+            <dt>区域</dt>
+            <dd>@Html.TextBoxFor(c => c.Area)</dd>
+        </dl>
+
+        <dl>
+            <dt>控件器</dt>
+            <dd>@Html.TextBoxFor(c => c.Controller)</dd>
+        </dl>
+
+        <dl>
+            <dt>响应</dt>
+            <dd>@Html.TextBoxFor(c => c.Action)</dd>
+        </dl>
+
+        <dl>
+            <dt>是否是菜单</dt>
+            <dd>@Html.RadioButtonFor(c => c.IsMenu, 1)是 &nbsp; @Html.RadioButtonFor(c => c.IsMenu, 0)否</dd>
+        </dl>
+        @Html.HiddenFor(c => c.Id)
+        @Html.HiddenFor(c => c.Parent)
+    </form>
+</div>
+
+<div id="btn" style="text-align: center;">
+    <a href="javascript:;" class="easyui-linkbutton" id="btnSave">保存</a>
+    <a href="javascript:;" class="easyui-linkbutton" onclick="$('#dlg').dialog('close');">取消</a>
+</div>
+
+<script type="text/javascript">
+    var currentData;
+    var pid = 0;
+    var showMenu = function (e, date) {
+        e.preventDefault();
+        currentData = date;
+        $("#mm").menu('show', {
+            left: e.pageX,
+            top: e.pageY
+        });
+    };
+
+    var add = function (item) {
+        if (item.iconCls == "icon-add") {
+            showDlg(currentData.Id, 1);
+        }
+        else if (item.iconCls == "icon-edit") {
+            showDlg(currentData.Id, 2);
+        }
+        else {
+            $.ajax({
+                url: "/sysfunction/del",
+                type: "post",
+                data: { id: currentData.Id },
+                success:function(r){
+                    if(r.Success)
+                    {
+                        $("#grd").treegrid("reload");
+                    }
+                    else{
+                        alert(r.Message);
+                    }
+                },
+                error: function () {
+                    alert("error");
+                }
+        });
+    }
+    };
+
+    var showDlg = function (_pid, type) {
+        pid = _pid;
+        if (type == 1) {
+            $("#ff").form("clear");
+            $("#ff").form("load", { Id: 0, Parent: pid });
+        }
+        else {
+            $("#ff").form("clear");
+            $("#ff").form("load", "/SysFunction/getone?id=" + pid+"&_t="+new Date().getTime());
+        }
+        $("#dlg").dialog("open");
+    }
+
+    var pst = function () {
+        var parm = $("#ff").serializeJson();
+        $.ajax({
+            url: '/sysfunction/save',
+            type: 'post',
+            data: parm,
+            success: function (result) {
+                if (result.Success) {
+                    $("#grd").treegrid("reload");
+                    $("#dlg").dialog("close");
+                }
+            },
+            error: function () {
+                alert("error");
+            }
+        });
+    }
+
+    $(function () {
+        $("#btnAdd").click(function () {
+            showDlg(0, 1);
+        });
+
+        $("#btnSave").click(function () {
+            pst();
+        });
+    });
+</script>

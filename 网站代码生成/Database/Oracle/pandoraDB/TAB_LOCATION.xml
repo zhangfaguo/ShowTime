@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="REGION_ID" property="RegionId"/>
+<add name="PARENT_ID" property="ParentId"/>
+<add name="LEVEL1" property="Level1"/>
+<add name="REGION_NAME" property="RegionName"/>
+<add name="LEVEL1_NAME" property="Level1Name"/>
+<add name="LEVEL2_NAME" property="Level2Name"/>
+<add name="LEVEL3_NAME" property="Level3Name"/>
+<add name="LEVEL4_NAME" property="Level4Name"/>
+<add name="LEVEL5_NAME" property="Level5Name"/>
+<add name="FULL_NAME" property="FullName"/>
+<add name="PHONETICIZEAB" property="Phoneticizeab"/>
+<add name="PHONETICIZE" property="Phoneticize"/>
+<add name="ISSAME" property="Issame"/>
+</columns>

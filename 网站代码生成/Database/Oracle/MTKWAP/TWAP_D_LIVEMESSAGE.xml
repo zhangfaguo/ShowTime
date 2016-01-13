@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="LIVE_ID" property="LiveId"/>
+<add name="SENDUSER_ID" property="SendUserId"/>
+<add name="RECEIVEUSER_ID" property="ReceiveUserId"/>
+<add name="CONTENT" property="Content"/>
+<add name="CREATETIME" property="CreateTime"/>
+<add name="STATE" property="State"/>
+<add name="ISVALID" property="IsValid"/>
+<add name="OPERATOR" property="Operator"/>
+</columns>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="CONFIGTOJSON" property="ConfigtoJson"/>
+<add name="CREATETIME" property="CreateTime"/>
+<add name="ISDEFAULT" property="IsDefault"/>
+<add name="ISVALID" property="IsValid"/>
+</columns>

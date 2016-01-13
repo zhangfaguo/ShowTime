@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="WEBSITENAME" property="Websitename"/>
+<add name="WEBSITEURL" property="Websiteurl"/>
+<add name="PICTUREURL" property="Pictureurl"/>
+<add name="PARTNERSITESCATEGORY_ID" property="PartnersitescategoryId"/>
+<add name="ANCHORTEXT" property="Anchortext"/>
+<add name="ISVALID" property="Isvalid"/>
+<add name="ADMIN_ID" property="AdminId"/>
+<add name="CREATEDATETIME" property="Createdatetime"/>
+<add name="DISABLEDATETIME" property="Disabledatetime"/>
+<add name="SORT" property="Sort"/>
+</columns>

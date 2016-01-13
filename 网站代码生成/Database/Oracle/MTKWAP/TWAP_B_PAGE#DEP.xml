@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="PAGENAME" property="Pagename"/>
+<add name="CONTROLLERNAME" property="Controllername"/>
+<add name="ACTIONNAME" property="Actionname"/>
+<add name="PAGETYPE" property="Pagetype"/>
+<add name="CREATETIME" property="Createtime"/>
+</columns>

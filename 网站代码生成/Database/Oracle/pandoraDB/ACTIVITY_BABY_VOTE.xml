@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="BABYID" property="Babyid"/>
+<add name="IP" property="Ip"/>
+<add name="USERLOGINID" property="Userloginid"/>
+<add name="PHONE" property="Phone"/>
+<add name="SOURETYPE" property="Souretype"/>
+<add name="ADDDATE" property="Adddate"/>
+</columns>

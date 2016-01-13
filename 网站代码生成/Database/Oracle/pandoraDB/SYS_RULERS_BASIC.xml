@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="RULERNAME" property="Rulername"/>
+<add name="PARENTID" property="Parentid"/>
+<add name="RULERNAMECN" property="Rulernamecn"/>
+<add name="FILTERTYPE" property="Filtertype"/>
+<add name="ISVALID" property="Isvalid"/>
+<add name="REMARK" property="Remark"/>
+</columns>

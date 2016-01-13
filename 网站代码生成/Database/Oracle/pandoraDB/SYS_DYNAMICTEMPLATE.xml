@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="TITLE" property="Title"/>
+<add name="KEYNAME" property="Keyname"/>
+<add name="DESCRIPTION" property="Description"/>
+<add name="TEMPLATE" property="Template"/>
+<add name="CREATEDATETIME" property="Createdatetime"/>
+</columns>

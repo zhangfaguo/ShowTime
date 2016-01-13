@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="URL" property="Url"/>
+<add name="ISVALID" property="Isvalid"/>
+<add name="SOURCETYPE" property="Sourcetype"/>
+<add name="CREATETIME" property="Createtime"/>
+<add name="ORDERID" property="Orderid"/>
+<add name="SKINNAME" property="Skinname"/>
+<add name="IMGURL" property="Imgurl"/>
+</columns>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="FULLNAME" property="Fullname"/>
+<add name="TELEPHONE" property="Telephone"/>
+<add name="JOINNUM" property="Joinnum"/>
+<add name="REMARKS" property="Remarks"/>
+<add name="OBJECTID" property="Objectid"/>
+<add name="USERID" property="Userid"/>
+<add name="ADDTIME" property="Addtime"/>
+<add name="BMSTATE" property="Bmstate"/>
+<add name="WEBTYPE" property="Webtype"/>
+<add name="SENDSMSSTATE" property="Sendsmsstate"/>
+</columns>

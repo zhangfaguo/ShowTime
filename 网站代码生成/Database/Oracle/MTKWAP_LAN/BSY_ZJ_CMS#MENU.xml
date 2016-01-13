@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="NAME" property="Name"/>
+<add name="PARENTID" property="ParentId"/>
+<add name="ISLEAF" property="IsLeaf"/>
+<add name="SORT" property="Sort"/>
+<add name="EXTPANEL" property="ExtPanel"/>
+<add name="PERMISSIONPANEL" property="PermissionPanel"/>
+<add name="ISPERMISSION" property="IsPermission"/>
+</columns>

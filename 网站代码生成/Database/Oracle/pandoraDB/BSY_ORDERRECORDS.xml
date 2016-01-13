@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="DATASOURCES" property="Datasources"/>
+<add name="CREATETIME" property="Createtime"/>
+<add name="DATATYPE" property="Datatype"/>
+<add name="ORDERCONTENT" property="Ordercontent"/>
+<add name="ORDERAREAID" property="Orderareaid"/>
+<add name="ORDERCLASSID" property="Orderclassid"/>
+<add name="NATURE" property="Nature"/>
+<add name="ORDERTELEPHONE" property="Ordertelephone"/>
+</columns>

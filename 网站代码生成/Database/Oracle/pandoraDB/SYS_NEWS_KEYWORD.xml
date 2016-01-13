@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="KEYWORD" property="Keyword"/>
+<add name="TYPEID" property="Typeid"/>
+<add name="LINKADDRESS" property="Linkaddress"/>
+<add name="ISENABLE" property="Isenable"/>
+<add name="CREATETIME" property="Createtime"/>
+</columns>

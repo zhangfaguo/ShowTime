@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="PRODUCT_CODE" property="ProductCode"/>
+<add name="SORT" property="Sort"/>
+<add name="SERIES_ID" property="SeriesId"/>
+<add name="DISSERTATION_ID" property="DissertationId"/>
+<add name="PRODUCT_IMAGE" property="ProductImage"/>
+<add name="DESCRIPTION" property="Description"/>
+</columns>

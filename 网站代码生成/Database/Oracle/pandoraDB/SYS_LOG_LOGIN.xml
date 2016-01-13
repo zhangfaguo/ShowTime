@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="USERNAME" property="Username"/>
+<add name="TIMES" property="Times"/>
+<add name="LOGDATE" property="Logdate"/>
+<add name="WEBSITEFLG" property="Websiteflg"/>
+</columns>

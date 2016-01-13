@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="TITLE" property="Title"/>
+<add name="DESCRIPTION" property="Description"/>
+<add name="STARTTIME" property="StartTime"/>
+<add name="ENDTIME" property="EndTime"/>
+<add name="LUCKYDRAWLEVEL" property="LuckyDrawLevel"/>
+<add name="INVITEFRIENDTOTAL" property="InviteFriendTotal"/>
+<add name="SIGNINTIMES" property="SignInTimes"/>
+<add name="TOTALTIMES" property="TotalTimes"/>
+<add name="TIMES" property="Times"/>
+<add name="ISSHOW" property="IsShow"/>
+<add name="ADMIN_ID" property="AdminId"/>
+<add name="CREATETIME" property="CreateTime"/>
+<add name="LASTEDITUSER_ID" property="LastEditUserId"/>
+<add name="LASTEDITTIME" property="LastEditTime"/>
+<add name="ISVALID" property="IsValid"/>
+</columns>

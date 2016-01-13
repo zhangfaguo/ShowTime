@@ -1,0 +1,112 @@
+﻿@model AccountDTO.LoginModel
+
+@{
+    ViewBag.Title = "登录";
+}
+<link href="~/Static/css/bootstrap.css" rel="stylesheet" />
+<link href="~/Static/css/loader-style.css" rel="stylesheet" />
+<link href="~/Static/css/signin.css" rel="stylesheet" />
+
+<div id="preloader">
+    <div id="status">&nbsp;</div>
+</div>
+
+<div class="container">
+
+
+
+    <div class="" id="login-wrapper" style="width: 400px;">
+        <div class="row">
+            <div>
+                <div id="logo-login" style="background-image: none; background-attachment: scroll; background-repeat: repeat; background-position-x: 0%; background-position-y: 0%; background-color: rgb(49, 67, 101);">
+                    <h1>
+                        云服务平台
+                        <span>v4.0</span>
+                    </h1>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div>
+                <div class="account-box">
+                    <form id="loginFrom">
+
+                        @Html.AntiForgeryToken()
+                        <div class="form-group">
+                            <!--a href="#" class="pull-right label-forgot">Forgot email?</a-->
+                            <label for="inputUsernameEmail">用户名</label>
+                            @Html.TextBoxFor(m => m.LoginName, new { @class = "form-control" })
+
+                        </div>
+                        <div class="form-group">
+                            <!--a href="#" class="pull-right label-forgot">Forgot password?</a-->
+                            <label for="inputPassword">密码</label>
+                            @Html.PasswordFor(m => m.LoginPwd, new { @class = "form-control" })
+
+                        </div>
+                        <div class="checkbox pull-left">
+                            <label>
+                                @Html.CheckBoxFor(m => m.IsRemenberMe)记住密码？
+                            </label>
+                        </div>
+
+                        <input type="button" id="btnSub" value="登录" class="btn btn btn-primary pull-right" />
+
+                    </form>
+                    <a class="forgotLnk" href="index.html"></a>
+                    <!--@Html.ActionLink("注册", "Register") 如果你没有帐户。-->
+                    <div class="row-block">
+                        <div class="row">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p>&nbsp;</p>
+    <div style="text-align:center;margin:0 auto;">
+        <h6 style="color:#fff;">
+            Copyright(C)2015 *****.com All Rights Reserved<br />
+            任丘市德龙网络技术服务有限公司 版权所有 渝IP备*****号
+        </h6>
+    </div>
+
+</div>
+
+
+
+
+
+<script type="text/javascript">
+    var urls = "@ViewBag.ReturnUrl";
+    var doLogin = function () {
+        $.ajax({
+            type: "post",
+            dataType: "json",
+            url: "/account/login",
+            data: $('#loginFrom').serializeJson(),
+            beforeSend: function () {
+                $.messager.progress();
+            },
+            success: function (result, status) {
+                $.messager.progress('close');
+                if (result.Success) {
+                    if (urls != "")
+                        location.href = urls;
+                    else
+                        location.href = "/home";
+                } else {
+                    $.messager.alert('Error', result.Message);
+                }
+            },
+            error: function () {
+                $.messager.progress('close');
+                $.messager.alert('Error', "操作失败");
+            }
+        });
+    }
+    $("#btnSub").on("click", doLogin);
+</script>

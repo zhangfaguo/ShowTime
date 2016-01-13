@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="KEYS" property="Keys"/>
+<add name="KEYSNAME" property="Keysname"/>
+<add name="SUMMARY" property="Summary"/>
+<add name="POINTSCOUNT" property="Pointscount"/>
+<add name="CYCLETYPE" property="Cycletype"/>
+<add name="DAYMAXCOUNT" property="Daymaxcount"/>
+<add name="PLATFORMS" property="Platforms"/>
+<add name="LEVELREQUSET" property="Levelrequset"/>
+<add name="USERSERIES_ID" property="UserseriesId"/>
+</columns>

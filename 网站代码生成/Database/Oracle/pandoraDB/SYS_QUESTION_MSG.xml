@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="TOUSERID" property="Touserid"/>
+<add name="AUCTIONTYPE" property="Auctiontype"/>
+<add name="AUCTIONUSERID" property="Auctionuserid"/>
+<add name="AUCTIONUSERNAME" property="Auctionusername"/>
+<add name="AUCTIONCONTENT" property="Auctioncontent"/>
+<add name="CREATETIME" property="Createtime"/>
+<add name="QUESTIONID" property="Questionid"/>
+</columns>

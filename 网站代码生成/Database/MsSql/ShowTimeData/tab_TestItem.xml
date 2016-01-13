@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="Id" property="Id"/>
+<add name="UserId" property="UserId"/>
+<add name="Age" property="Age"/>
+<add name="Height" property="Height"/>
+<add name="Weight" property="Weight"/>
+<add name="FatherHeight" property="FatherHeight"/>
+<add name="MatherHeight" property="MatherHeight"/>
+<add name="Create" property="Create"/>
+</columns>

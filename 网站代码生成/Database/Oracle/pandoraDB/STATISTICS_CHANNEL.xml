@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="CHANNELNAME" property="Channelname"/>
+<add name="CREATETIME" property="Createtime"/>
+<add name="EDITTIME" property="Edittime"/>
+<add name="CREATOR" property="Creator"/>
+<add name="EDITOR" property="Editor"/>
+<add name="ISVALID" property="Isvalid"/>
+<add name="CHANNELTYPE" property="Channeltype"/>
+</columns>

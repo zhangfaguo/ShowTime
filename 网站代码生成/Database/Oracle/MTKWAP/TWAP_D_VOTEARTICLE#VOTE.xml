@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="MAXNUM" property="Maxnum"/>
+<add name="NAME" property="Name"/>
+<add name="VOTEARTICLE_ID" property="VoteArticleId"/>
+<add name="ORDERID" property="OrderId"/>
+<add name="ADMIN_ID" property="AdminId"/>
+<add name="EDITTIME" property="EditTime"/>
+<add name="ISVALID" property="IsValid"/>
+</columns>

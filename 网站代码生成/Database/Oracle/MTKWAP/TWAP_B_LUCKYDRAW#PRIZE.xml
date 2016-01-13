@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="LUCKYDRAW_ID" property="LuckyDrawId"/>
+<add name="PRIZENAME" property="PrizeName"/>
+<add name="MAXIMUM" property="Maximum"/>
+<add name="MINCREDIT" property="MinCredit"/>
+<add name="MAXCREDIT" property="MaxCredit"/>
+<add name="ENUMCREDIT" property="EnumCredit"/>
+<add name="ISDEFAULT" property="IsDefault"/>
+<add name="ISVALID" property="IsValid"/>
+</columns>

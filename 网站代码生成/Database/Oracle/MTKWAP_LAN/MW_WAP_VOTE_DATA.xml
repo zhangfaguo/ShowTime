@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="VOTE_ID" property="VoteId"/>
+<add name="TITLE" property="Title"/>
+<add name="IMAGE" property="Image"/>
+<add name="ACTION" property="Action"/>
+<add name="TOTAL" property="Total"/>
+<add name="SORTID" property="SortId"/>
+</columns>

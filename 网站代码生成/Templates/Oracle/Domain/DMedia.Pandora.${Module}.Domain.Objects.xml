@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net">
+
+  <!--DMedia.Pandora.${Module}.Domain.${ClassName}Service-->
+  <object id="DMedia.Pandora.${Module}.Domain.${ClassName}Service" type="DMedia.Pandora.${Module}.Domain.Service.${ClassName}Service,DMedia.Pandora.${Module}.Domain">
+    <property name="Manager" ref="DMedia.Pandora.${Module}.Domain.${ClassName}Manager"/>
+  </object>
+
+  <object id="DMedia.Pandora.${Module}.Domain.${ClassName}Manager" type="DMedia.Phoenix.Core.Manager&lt;DMedia.Pandora.${Module}.Contract.${ClassName}Info, DMedia.Pandora.${Module}.Domain.Model.${ClassName}>,DMedia.Phoenix.Core">
+    <property name="DataAdapter" ref="DMedia.Pandora.${Module}.Domain.${ClassName}DataAdapter"/>
+  </object>
+
+  <object id="DMedia.Pandora.${Module}.Domain.${ClassName}DataAdapter" type="DMedia.Phoenix.Core.DataAdapter&lt;DMedia.Pandora.${Module}.Domain.Model.${ClassName}>, DMedia.Phoenix.Core">
+    <property name="HibernateTemplate" ref="DMedia.Phoenix.Core.HibernateTemplate"/>
+  </object>
+
+</objects>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="LEVELRANK" property="Levelrank"/>
+<add name="LEVELNAME" property="Levelname"/>
+<add name="POINTSLOWER" property="Pointslower"/>
+</columns>

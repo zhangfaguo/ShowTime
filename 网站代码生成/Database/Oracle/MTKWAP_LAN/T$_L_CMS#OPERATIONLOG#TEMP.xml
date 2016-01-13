@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="ADMIN_ID" property="AdminId"/>
+<add name="CREATETIME" property="Createtime"/>
+<add name="OPERATIONTYPE" property="Operationtype"/>
+<add name="DESCRIPTION" property="Description"/>
+<add name="SOURCE_ID" property="SourceId"/>
+<add name="SOURCETYPE" property="Sourcetype"/>
+<add name="CONTROLLERNAME" property="Controllername"/>
+<add name="ACTIONNAME" property="Actionname"/>
+<add name="DATATOJSON" property="Datatojson"/>
+<add name="CLIENTIP" property="Clientip"/>
+</columns>

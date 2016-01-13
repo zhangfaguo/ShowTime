@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="NO" property="No"/>
+<add name="NAME" property="Name"/>
+<add name="BIRTHDAY" property="Birthday"/>
+<add name="SEX" property="Sex"/>
+<add name="COMMUNITYID" property="Communityid"/>
+<add name="CONTRIBUTOR" property="Contributor"/>
+<add name="PHONE" property="Phone"/>
+<add name="MANIFESTO" property="Manifesto"/>
+<add name="USERLOGINID" property="Userloginid"/>
+<add name="VOTECOUNT" property="Votecount"/>
+<add name="ADDDATE" property="Adddate"/>
+<add name="ISVALID" property="Isvalid"/>
+</columns>

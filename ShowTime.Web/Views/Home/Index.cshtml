@@ -1,0 +1,96 @@
+﻿@{
+    Layout = null;
+    var user = ViewBag.User as ShowTime.DomainService.Objects.SysUserInfo;
+    var menuList = user.MenuFunction;
+    var first = menuList.Where(c => c.Parent == 0);
+    var inx = 0;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>云服务平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="Static/css/dpl-min.css" rel="stylesheet" type="text/css" />
+    <link href="Static/css/bui-min.css" rel="stylesheet" type="text/css" />
+    <link href="Static/css/main-min.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/scripts/jquery-1.11.3.js"></script>
+</head>
+<body>
+ 
+    <div class="header">
+
+        <div class="dl-title">
+
+
+            <span class="lp-title-port">云服务平台</span>
+
+        </div>
+
+        <div class="dl-log">
+            欢迎您，<span class="dl-log-user">@ViewBag.UserName </span><a href="/account/loginout" title="退出系统" class="dl-log-quit">[退出]</a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="dl-main-nav">
+            <div class="dl-inform"><div class="dl-inform-title">贴心小秘书<s class="dl-inform-icon dl-up"></s></div></div>
+            <ul id="J_Nav" class="nav-list ks-clear">
+                <li class="nav-item dl-selected"><div class="nav-item-inner nav-home">管理中心</div></li>
+
+            </ul>
+        </div>
+        <ul id="J_NavContent" class="dl-tab-conten"></ul>
+    </div>
+    <script type="text/javascript" src="/Static/js/bui.js"></script>
+    <script type="text/javascript" src="/Static/js/config.js"></script>
+
+    <script>
+
+        BUI.use('common/main', function () {
+            var config = [{
+                id: 'menu',
+                menu: [
+                    @foreach (var item in first)
+                    {
+                        var start="{";
+                        @start
+                         var str = string.Format("id:'m_{1}',text: '{0}'", item.Name,item.Id);
+                        @Html.Raw(str)
+                        var secend=menuList.Where(c=>c.Parent==item.Id &  c.IsMenu==1);
+                        var iix=0;
+                        if(secend.Count()>0)
+                        {
+                            var itemsstr = ",items:[";
+                            @itemsstr
+                            foreach(var s in secend)
+                            {
+                                var strr = string.Format("id:'mm_{1}',text: '{0}',href:'{2}/{3}'", s.Name, s.Id,s.Controller,s.Action);
+                                var html = "{" + strr + "}";
+                                @Html.Raw(html)
+                                iix++;
+                                if (iix < secend.Count())
+                                { 
+                                   @:,
+                                }
+                            }
+                            var endstr="]";
+                            @endstr
+                            
+                        }
+                        var end="}";
+                        @end
+                        inx++;
+                        if(inx < first.Count())
+                        {   
+                            @:,
+                        }
+                    }
+                ]
+            }];
+            new PageUtil.MainPage({
+                modulesConfig: config
+            });
+        });
+    </script>
+
+</body>
+</html>

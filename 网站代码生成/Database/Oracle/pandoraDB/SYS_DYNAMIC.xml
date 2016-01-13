@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="USER_ID" property="UserId"/>
+<add name="TARGETLOCATIONID" property="Targetlocationid"/>
+<add name="KEYNAME" property="Keyname"/>
+<add name="DISPLAYNAME" property="Displayname"/>
+<add name="EXECNAME" property="Execname"/>
+<add name="USERDATA" property="Userdata"/>
+<add name="PRIVATETEMPLATE" property="Privatetemplate"/>
+<add name="TEMPLATEORDER" property="Templateorder"/>
+<add name="SOURCETYPEID" property="Sourcetypeid"/>
+<add name="OBJECTID" property="Objectid"/>
+<add name="CREATEDATETIME" property="Createdatetime"/>
+<add name="ISVALID" property="Isvalid"/>
+</columns>

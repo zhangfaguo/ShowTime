@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="BABYID" property="Babyid"/>
+<add name="IAMGEURL" property="Iamgeurl"/>
+<add name="ISCOVER" property="Iscover"/>
+<add name="ISVALID" property="Isvalid"/>
+<add name="ADDDATE" property="Adddate"/>
+<add name="AUDITSTATE" property="Auditstate"/>
+<add name="AUDITUSERID" property="Audituserid"/>
+<add name="AUDITDATE" property="Auditdate"/>
+</columns>

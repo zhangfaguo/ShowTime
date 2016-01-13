@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="DATAID" property="Dataid"/>
+<add name="CREATETIME" property="Createtime"/>
+<add name="FAVORITETYPE" property="Favoritetype"/>
+<add name="USER_ID" property="UserId"/>
+<add name="STATE" property="State"/>
+</columns>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="NAME" property="Name"/>
+<add name="BANNER" property="Banner"/>
+<add name="GROUPING" property="Grouping"/>
+<add name="TOTAL_INTEGRAL" property="TotalIntegral"/>
+<add name="TOTAL_GOAL" property="TotalGoal"/>
+<add name="TOTAL_FUMBLE" property="TotalFumble"/>
+</columns>

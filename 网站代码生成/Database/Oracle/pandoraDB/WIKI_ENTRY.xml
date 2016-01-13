@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="WIKITERM_ID" property="WikitermId"/>
+<add name="TITLE" property="Title"/>
+<add name="CONTENTS" property="Contents"/>
+<add name="USER_ID" property="UserId"/>
+<add name="CREATEDATETIME" property="Createdatetime"/>
+<add name="ORDERS" property="Orders"/>
+<add name="INFOSOURCE" property="Infosource"/>
+<add name="VERSION" property="Version"/>
+<add name="ISVALID" property="Isvalid"/>
+<add name="ENUMAUDIT" property="Enumaudit"/>
+<add name="ADMIN_ID" property="AdminId"/>
+<add name="AUDITDATETIME" property="Auditdatetime"/>
+<add name="AUDITREASON" property="Auditreason"/>
+</columns>

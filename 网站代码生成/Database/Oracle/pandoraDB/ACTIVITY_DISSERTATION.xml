@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="NAME" property="Name"/>
+<add name="TITLE" property="Title"/>
+<add name="CATEGORY" property="Category"/>
+<add name="BGTYPE" property="Bgtype"/>
+<add name="BACKGROUND" property="Background"/>
+<add name="KEYWORD" property="Keyword"/>
+<add name="DESCRIPTION" property="Description"/>
+<add name="IMAGEURL" property="Imageurl"/>
+<add name="DETAILS" property="Details"/>
+<add name="CREATETIME" property="Createtime"/>
+<add name="CREATOR" property="Creator"/>
+<add name="ISVALID" property="Isvalid"/>
+<add name="AUDITFLAG" property="Auditflag"/>
+<add name="EDITOR" property="Editor"/>
+<add name="EDITTIME" property="Edittime"/>
+<add name="VIEWCOUNT" property="Viewcount"/>
+<add name="ORDER_CODE" property="OrderCode"/>
+<add name="ORDER_DETAIL_URL" property="OrderDetailUrl"/>
+<add name="ATTENTION" property="Attention"/>
+<add name="FAVORABLE_IMAGE" property="FavorableImage"/>
+<add name="FAVORABLE_URL" property="FavorableUrl"/>
+</columns>

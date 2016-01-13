@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="TYPEID" property="Typeid"/>
+<add name="SOURCEID" property="Sourceid"/>
+<add name="SUPPORT" property="Support"/>
+<add name="NEUTRAL" property="Neutral"/>
+<add name="OPPOSE" property="Oppose"/>
+</columns>

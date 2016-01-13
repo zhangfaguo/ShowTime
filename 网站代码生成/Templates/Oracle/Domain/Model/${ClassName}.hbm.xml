@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="DMedia.Pandora.${Module}.Domain" namespace="DMedia.Pandora.${Module}.Domain.Model">
+  <class name="DMedia.Pandora.${Module}.Domain.Model.${ClassName}" table="$Table.Name">
+      #foreach($column in $Table.Columns)
+      #if($column.Property.ToLower()=="id")
+      <id name="Id" column="Id" unsaved-value="0">
+        <generator class="sequence">
+          <param name="sequence">${Table.Name}_0</param>
+        </generator>
+      </id>
+      #else
+      <property name="$column.Property" column="${column.Name}" type="$Helper.OracleToCS($column.DataType,$column.Length)" not-null=#if($column.IsNullAble)"false"#else"true"#end></property>
+    #end
+    #end
+  </class>
+</hibernate-mapping>

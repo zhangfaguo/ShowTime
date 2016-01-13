@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="Id" property="Id"/>
+<add name="Name" property="Name"/>
+<add name="PassWord" property="PassWord"/>
+<add name="RealName" property="RealName"/>
+<add name="Photo" property="Photo"/>
+<add name="Six" property="Six"/>
+<add name="Type" property="Type"/>
+<add name="Grade" property="Grade"/>
+<add name="Phone" property="Phone"/>
+<add name="WeiXin" property="WeiXin"/>
+<add name="QQ" property="QQ"/>
+<add name="TowCode" property="TowCode"/>
+<add name="Province" property="Province"/>
+<add name="Area" property="Area"/>
+<add name="Adress" property="Adress"/>
+<add name="School" property="School"/>
+<add name="State" property="State"/>
+<add name="Mark" property="Mark"/>
+</columns>

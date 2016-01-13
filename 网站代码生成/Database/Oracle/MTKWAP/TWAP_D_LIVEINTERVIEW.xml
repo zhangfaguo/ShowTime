@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="LIVEMASTER_ID" property="LiveMasterId"/>
+<add name="CONTENT" property="Content"/>
+<add name="CREATETIME" property="CreateTime"/>
+<add name="ISVALID" property="IsValid"/>
+</columns>

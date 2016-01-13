@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="SOURCE_ID" property="SourceId"/>
+<add name="SOURCETYPE" property="Sourcetype"/>
+<add name="RESOURCENAME" property="Resourcename"/>
+<add name="RESOURCETYPE" property="Resourcetype"/>
+<add name="RESOURCEPATH" property="Resourcepath"/>
+<add name="USER_ID" property="UserId"/>
+<add name="CREATETIME" property="Createtime"/>
+<add name="AUDITDATETIME" property="Auditdatetime"/>
+<add name="AUDITADMIN_ID" property="AuditadminId"/>
+<add name="AUDITREASON" property="Auditreason"/>
+<add name="STATE" property="State"/>
+<add name="ISVALID" property="Isvalid"/>
+<add name="SORTID" property="Sortid"/>
+</columns>

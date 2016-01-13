@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="SYS_RULERS_BASIC_ID" property="SysRulersBasicId"/>
+<add name="FILTERCODE" property="Filtercode"/>
+<add name="FILTERTITLE" property="Filtertitle"/>
+<add name="FILTERGOURL" property="Filtergourl"/>
+<add name="ISVALID" property="Isvalid"/>
+<add name="REMARK" property="Remark"/>
+</columns>

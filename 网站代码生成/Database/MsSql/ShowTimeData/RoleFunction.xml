@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="RoleId" property="RoleId"/>
+<add name="FnId" property="FnId"/>
+<add name="IsValid" property="IsValid"/>
+</columns>

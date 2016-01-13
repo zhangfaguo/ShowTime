@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="PRODUCTNAME" property="Productname"/>
+<add name="PRODUCTCODE" property="Productcode"/>
+<add name="PRICE" property="Price"/>
+<add name="BEGINTIME" property="Begintime"/>
+<add name="ENDTIME" property="Endtime"/>
+<add name="QUANTITY" property="Quantity"/>
+<add name="REQUESTCOUNT" property="Requestcount"/>
+<add name="REPORTCOUNT" property="Reportcount"/>
+<add name="SCORE" property="Score"/>
+</columns>

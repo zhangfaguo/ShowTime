@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="MAXNUM" property="Maxnum"/>
+<add name="ENDTIME" property="EndTime"/>
+<add name="VOTELEVEL" property="VoteLevel"/>
+<add name="ISVALID" property="IsValid"/>
+<add name="NAME" property="Name"/>
+</columns>

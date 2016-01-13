@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="SERIES_NAME" property="SeriesName"/>
+<add name="DISSERTATION_ID" property="DissertationId"/>
+<add name="BANNER_IMAGE" property="BannerImage"/>
+<add name="BANNER_URL" property="BannerUrl"/>
+</columns>

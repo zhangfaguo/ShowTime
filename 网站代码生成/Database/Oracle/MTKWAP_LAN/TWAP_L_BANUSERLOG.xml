@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="USER_ID" property="UserId"/>
+<add name="BANDATE" property="BanDate"/>
+<add name="UNSEALDATE" property="UnsealDate"/>
+<add name="DESCRIPTION" property="Description"/>
+</columns>

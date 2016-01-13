@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="LUCKYDRAW_ID" property="LuckyDrawId"/>
+<add name="PRIZE_ID" property="PrizeId"/>
+<add name="EFFECTIVETIME" property="EffectiveTime"/>
+<add name="ISVALID" property="IsValid"/>
+</columns>

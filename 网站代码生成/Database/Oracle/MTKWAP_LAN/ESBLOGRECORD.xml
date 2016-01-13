@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="EXCPATH" property="Excpath"/>
+<add name="EXCTYPE" property="Exctype"/>
+<add name="EXCMESSAGE" property="Excmessage"/>
+<add name="EXCPTION" property="Excption"/>
+<add name="TIME" property="Time"/>
+</columns>

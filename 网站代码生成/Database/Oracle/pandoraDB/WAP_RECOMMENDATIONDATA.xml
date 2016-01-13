@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="DATA" property="Data"/>
+<add name="HTML" property="Html"/>
+<add name="UPDATETIME" property="Updatetime"/>
+<add name="RECOMMENDATIONTEMPLATE_ID" property="RecommendationtemplateId"/>
+<add name="WEBSITE_ID" property="WebsiteId"/>
+<add name="ARTICLEDATA" property="Articledata"/>
+<add name="CREATEDATETIME" property="Createdatetime"/>
+<add name="CREATE_ID" property="CreateId"/>
+</columns>

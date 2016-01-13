@@ -1,0 +1,12 @@
+﻿form {
+    display: inline-block;
+    width: 98%;
+}
+
+form dl {
+    display: inline-block;
+    width: 100%;
+}
+
+form dl dt {display:inline; float:left; width:100px; text-align:right;}
+form dl dd {display:inline; float:left;text-align:right;}

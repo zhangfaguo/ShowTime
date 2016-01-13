@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="USER_ID" property="UserId"/>
+<add name="CREATETIME" property="Createtime"/>
+<add name="IPSTR" property="Ipstr"/>
+<add name="USERAGENT" property="Useragent"/>
+<add name="CONTROLLERNAME" property="Controllername"/>
+<add name="ACTIONNAME" property="Actionname"/>
+<add name="URLS" property="Urls"/>
+<add name="SESSIONID" property="Sessionid"/>
+<add name="PHONENUMBER" property="Phonenumber"/>
+<add name="SOURCEURL" property="Sourceurl"/>
+</columns>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="MINSCORE" property="MinScore"/>
+<add name="MAXSCORE" property="MaxScore"/>
+<add name="STARTTIME" property="StartTime"/>
+<add name="ENDTIME" property="EndTime"/>
+<add name="DICERESULT" property="DiceResult"/>
+<add name="DICETYPE" property="DiceType"/>
+<add name="ROOMNAME" property="RoomName"/>
+<add name="MAXIMUM" property="Maximum"/>
+<add name="TOTAL" property="Total"/>
+<add name="TOTALOFTYPE1" property="TotalOfType1"/>
+<add name="SCOREOFTYPE1" property="ScoreOfType1"/>
+<add name="TOTALOFTYPE2" property="TotalOfType2"/>
+<add name="SCOREOFTYPE2" property="ScoreOfType2"/>
+<add name="TOTALOFTYPE3" property="TotalOfType3"/>
+<add name="SCOREOFTYPE3" property="ScoreOfType3"/>
+<add name="TOTALSCORE" property="TotalScore"/>
+<add name="SCORE" property="Score"/>
+<add name="ISVALID" property="IsValid"/>
+</columns>

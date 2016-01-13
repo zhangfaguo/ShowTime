@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="USER_ID" property="UserId"/>
+<add name="CONTROLLERNAME" property="Controllername"/>
+<add name="ACTIONNAME" property="Actionname"/>
+<add name="TYPE" property="Type"/>
+<add name="INPUTVALUE" property="Inputvalue"/>
+<add name="OUTPUTVALUE" property="Outputvalue"/>
+<add name="CREATETIME" property="Createtime"/>
+<add name="RESULTCODE" property="Resultcode"/>
+</columns>

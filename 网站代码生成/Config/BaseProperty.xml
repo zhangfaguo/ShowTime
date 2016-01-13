@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<property>
+<add name="Module" type="string" category="Base" default="ShowTime" description="模块名称"/>
+<add name="ClassName" type="string" category="Base" default="ShowTime" description="类名变量"/>
+<add name="Author" type="string" category="Base" default="zhangfaguo" description="作者"/>
+<add name="Description" type="string" category="Base" default=" " description="描述"/>
+</property>

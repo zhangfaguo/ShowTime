@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="MigrationId" property="MigrationId"/>
+<add name="ContextKey" property="ContextKey"/>
+<add name="Model" property="Model"/>
+<add name="ProductVersion" property="ProductVersion"/>
+</columns>

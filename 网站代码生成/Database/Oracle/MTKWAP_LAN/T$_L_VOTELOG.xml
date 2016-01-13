@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="VOTE_ID" property="VoteId"/>
+<add name="VOTEDATA_ID" property="VoteDataId"/>
+<add name="SESSIONID" property="SessionId"/>
+<add name="CREATETIME" property="CreateTime"/>
+<add name="USER_PHONE" property="UserPhone"/>
+</columns>

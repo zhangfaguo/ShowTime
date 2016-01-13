@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="用户ID" property="用户ID"/>
+<add name="角色ID" property="角色ID"/>
+</columns>

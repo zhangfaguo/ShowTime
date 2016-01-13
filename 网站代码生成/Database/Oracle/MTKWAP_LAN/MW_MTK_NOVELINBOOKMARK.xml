@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="USER_ID" property="UserId"/>
+<add name="NOVELCHAPTERID" property="Novelchapterid"/>
+<add name="PAGENUM" property="Pagenum"/>
+<add name="UPDATETIME" property="Updatetime"/>
+</columns>

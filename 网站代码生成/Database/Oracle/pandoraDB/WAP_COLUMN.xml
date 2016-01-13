@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="NAME" property="Name"/>
+<add name="PARENT_ID" property="ParentId"/>
+<add name="ISLEAF" property="Isleaf"/>
+<add name="ISVALID" property="Isvalid"/>
+<add name="LIST_ORDERID" property="ListOrderid"/>
+<add name="DISPLAY_OPTIONS" property="DisplayOptions"/>
+<add name="ISPAGE" property="Ispage"/>
+<add name="ISEXAMINE" property="Isexamine"/>
+<add name="TOP_INTRODUCTION" property="TopIntroduction"/>
+<add name="LIST_DISPLAY_OPTIONS" property="ListDisplayOptions"/>
+<add name="BOTTOM_NAVIGATION" property="BottomNavigation"/>
+<add name="DESCRIPTION" property="Description"/>
+<add name="CREATEDATETIME" property="Createdatetime"/>
+<add name="TITLECREATETYPE" property="Titlecreatetype"/>
+</columns>

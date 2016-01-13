@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="PHONENUM" property="Phonenum"/>
+<add name="SMSCONTENT" property="Smscontent"/>
+<add name="XMLCONTENT" property="Xmlcontent"/>
+<add name="CREATETIME" property="Createtime"/>
+<add name="SUCCESS" property="Success"/>
+</columns>

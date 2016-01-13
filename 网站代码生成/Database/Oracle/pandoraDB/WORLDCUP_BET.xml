@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="TYPE" property="Type"/>
+<add name="AMOUNT" property="Amount"/>
+<add name="COMPETITION_ID" property="CompetitionId"/>
+<add name="TEAM_ID" property="TeamId"/>
+<add name="PLAYER_ID" property="PlayerId"/>
+<add name="BET_RESULT" property="BetResult"/>
+<add name="BET_TIME" property="BetTime"/>
+<add name="USER_ID" property="UserId"/>
+<add name="DESCRIPTION" property="Description"/>
+</columns>

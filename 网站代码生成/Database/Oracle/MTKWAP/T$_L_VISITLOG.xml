@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="VISITTYPE" property="VisitType"/>
+<add name="USER_ID" property="UserId"/>
+<add name="CREATETIME" property="CreateTime"/>
+<add name="IPSTR" property="IpStr"/>
+<add name="USERAGENT" property="UserAgent"/>
+<add name="CONTROLLERNAME" property="ControllerName"/>
+<add name="ACTIONNAME" property="ActionName"/>
+<add name="URLS" property="Urls"/>
+<add name="SESSIONID" property="SessionId"/>
+<add name="PHONENUMBER" property="PhoneNumber"/>
+<add name="SOURCEURL" property="SourceUrl"/>
+</columns>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="TITLE" property="Title"/>
+<add name="DESCRIPTION" property="Description"/>
+<add name="ENDTIME" property="EndTime"/>
+<add name="PERMISSION" property="Permission"/>
+<add name="ADMIN_ID" property="AdminId"/>
+<add name="EDITTIME" property="EditTime"/>
+<add name="ISVALID" property="IsValid"/>
+<add name="CREATETIME" property="CreateTime"/>
+</columns>

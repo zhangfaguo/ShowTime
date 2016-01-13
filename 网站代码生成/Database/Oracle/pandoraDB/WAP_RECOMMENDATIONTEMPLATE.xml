@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="NAME" property="Name"/>
+<add name="KEYNAME" property="Keyname"/>
+<add name="TEMPLATE" property="Template"/>
+<add name="MAXCOUNT" property="Maxcount"/>
+<add name="ARTICLECATEGORY_ID" property="ArticlecategoryId"/>
+<add name="CACHESPAN" property="Cachespan"/>
+<add name="PATTERN" property="Pattern"/>
+<add name="RECOMMENDATIONCATEGORY_ID" property="RecommendationcategoryId"/>
+<add name="CREATE_ID" property="CreateId"/>
+<add name="CREATEDATETIME" property="Createdatetime"/>
+<add name="TEMPLATETYPE" property="Templatetype"/>
+<add name="ISVALID" property="Isvalid"/>
+<add name="ORDERTYPE" property="Ordertype"/>
+<add name="TITLECOUNT" property="Titlecount"/>
+</columns>

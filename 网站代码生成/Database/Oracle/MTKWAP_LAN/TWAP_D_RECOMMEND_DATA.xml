@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="RECOMMEND_ID" property="RecommendId"/>
+<add name="CONTENTS" property="Contents"/>
+<add name="SORTID" property="SortId"/>
+<add name="SOURCE_ID" property="SourceId"/>
+<add name="DATASORTID" property="DataSortId"/>
+</columns>

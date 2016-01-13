@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="NAME" property="Name"/>
+<add name="PARENTID" property="ParentId"/>
+<add name="SORTID" property="SortId"/>
+<add name="LEVELS" property="Levels"/>
+<add name="ISLEAF" property="IsLeaf"/>
+<add name="ISSHOWONMTK" property="IsShowOnMtk"/>
+<add name="ISSHOWONWAP" property="IsShowOnWap"/>
+<add name="ISPUBLISH" property="IsPublish"/>
+<add name="CREATETIME" property="CreateTime"/>
+<add name="ADMIN_ID" property="AdminId"/>
+<add name="DESCRIPTION" property="Description"/>
+<add name="ISVALID" property="IsValid"/>
+<add name="ISCOMMENT" property="IsComment"/>
+<add name="TEMPLATE" property="Template"/>
+<add name="DETAILSET" property="DetailSet"/>
+<add name="LISTOPTIONS" property="ListOptions"/>
+<add name="LISTPREFIX" property="ListPrefix"/>
+<add name="DETAILOPTIONS" property="DetailOptions"/>
+<add name="READPERMISSION" property="ReadPermission"/>
+<add name="SHOWESSENCE" property="ShowEssence"/>
+<add name="COMMENTPERMISSION" property="CommentPermission"/>
+<add name="BBSPERMISSION" property="BbsPermission"/>
+<add name="SUMMARY" property="Summary"/>
+<add name="FOOTER" property="Footer"/>
+<add name="LISTBACKCOLOR" property="ListBackColor"/>
+<add name="LISTTEXTCOLOR" property="ListTextColor"/>
+<add name="LISTLINKCOLOR" property="ListLinkColor"/>
+<add name="TITLEBACKCOLOR" property="TitleBackColor"/>
+<add name="TITLETEXTCOLOR" property="TitleTextColor"/>
+<add name="TITLESTRONG" property="TitleStrong"/>
+<add name="STATUSID" property="StatusId"/>
+<add name="CATEGORYISCOMMENT" property="CategoryIsComment"/>
+<add name="CATEGORYPERMISSION" property="CategoryPermission"/>
+</columns>

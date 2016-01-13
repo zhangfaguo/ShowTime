@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="PROVINCE" property="Province"/>
+<add name="CITY" property="City"/>
+<add name="IP1" property="Ip1"/>
+<add name="IP2" property="Ip2"/>
+</columns>

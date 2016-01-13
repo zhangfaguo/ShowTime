@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="USER_ID" property="UserId"/>
+<add name="FRIENDID" property="Friendid"/>
+<add name="CONTENT" property="Content"/>
+<add name="CREATTIME" property="Creattime"/>
+<add name="ENUMAUDITFLAG" property="Enumauditflag"/>
+<add name="GROUP_ID" property="GroupId"/>
+<add name="MSGTYPE" property="Msgtype"/>
+<add name="REQUESTMSGRECORDID" property="Requestmsgrecordid"/>
+</columns>

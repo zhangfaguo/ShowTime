@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="USER_ID" property="UserId"/>
+<add name="TOTAL" property="Total"/>
+<add name="SCORETOTAL" property="ScoreTotal"/>
+<add name="WINSCORE" property="WinScore"/>
+<add name="LOSTSCORE" property="LostScore"/>
+<add name="RESULT" property="Result"/>
+<add name="WINCOUNT" property="WinCount"/>
+<add name="LOSTCOUNT" property="LostCount"/>
+<add name="WINRATE" property="WinRate"/>
+</columns>

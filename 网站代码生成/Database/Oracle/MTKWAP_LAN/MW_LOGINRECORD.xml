@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="USER_ID" property="UserId"/>
+<add name="LOGINTIME" property="Logintime"/>
+<add name="LOGOUTTIME" property="Logouttime"/>
+<add name="SESSIONID" property="Sessionid"/>
+<add name="AGENTINFO" property="Agentinfo"/>
+<add name="LOGINTYPE" property="Logintype"/>
+</columns>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="SERVICEID" property="Serviceid"/>
+<add name="SERVICETYPE" property="Servicetype"/>
+<add name="URL" property="Url"/>
+<add name="CLASSNAME" property="Classname"/>
+<add name="FUNCNAME" property="Funcname"/>
+<add name="VERSIONNO" property="Versionno"/>
+<add name="MAXACCESS" property="Maxaccess"/>
+<add name="STATE" property="State"/>
+<add name="UPDATETIME" property="Updatetime"/>
+<add name="DESCRIPTION" property="Description"/>
+</columns>

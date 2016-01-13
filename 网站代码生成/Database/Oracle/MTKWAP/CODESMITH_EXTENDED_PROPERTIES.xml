@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="CONTAINER_OBJECT_OWNER" property="ContainerObjectOwner"/>
+<add name="OBJECT_NAME" property="ObjectName"/>
+<add name="CODESMITH_SCHEMA_TYPE" property="CodesmithSchemaType"/>
+<add name="PROPERTY_NAME" property="PropertyName"/>
+<add name="PROPERTY_VALUE" property="PropertyValue"/>
+<add name="CLR_TYPE" property="ClrType"/>
+</columns>

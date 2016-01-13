@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="NAME" property="Name"/>
+<add name="CONTROLLER" property="Controller"/>
+<add name="ACTION" property="Action"/>
+<add name="ISNEED_LOGIN" property="IsneedLogin"/>
+<add name="ISNEED_ROLE" property="IsneedRole"/>
+<add name="ISNEED_SESSION_ROLE" property="IsneedSessionRole"/>
+<add name="ACTIONLEVEL" property="Actionlevel"/>
+<add name="ACTIONTYPE_ID" property="ActiontypeId"/>
+<add name="TYPE_ID" property="TypeId"/>
+<add name="ACTION_TYPE" property="ActionType"/>
+<add name="IS_ENABLE" property="IsEnable"/>
+<add name="UNLOGIN_ACTION" property="UnloginAction"/>
+<add name="UNAUTHORIZE_ACTION" property="UnauthorizeAction"/>
+<add name="ACTION_DIFFERENCE" property="ActionDifference"/>
+<add name="UNLOGIN_AJAX" property="UnloginAjax"/>
+<add name="UNAUTHORIZE_AJAX" property="UnauthorizeAjax"/>
+<add name="HELPER" property="Helper"/>
+<add name="SPECIALHELPER" property="Specialhelper"/>
+<add name="DESCRIPTION" property="Description"/>
+</columns>

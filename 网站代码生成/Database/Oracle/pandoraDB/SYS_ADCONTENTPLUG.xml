@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="NAME" property="Name"/>
+<add name="SUMMARY" property="Summary"/>
+<add name="UPDATETIME" property="Updatetime"/>
+<add name="CREATETIME" property="Createtime"/>
+<add name="ISVALID" property="Isvalid"/>
+<add name="CONTENT" property="Content"/>
+<add name="ISDRAFT" property="Isdraft"/>
+<add name="WIDTH" property="Width"/>
+<add name="HEIGHT" property="Height"/>
+<add name="CACHETIME" property="Cachetime"/>
+</columns>

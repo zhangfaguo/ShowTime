@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="KEYNAME" property="Keyname"/>
+<add name="NAME" property="Name"/>
+<add name="ISMAINSITE" property="Ismainsite"/>
+<add name="CONTENT" property="Content"/>
+<add name="RECOMMENDATIONCATEGORY_ID" property="RecommendationcategoryId"/>
+<add name="SUMMARY" property="Summary"/>
+<add name="OPERATORID" property="Operatorid"/>
+<add name="CREATEDATETIME" property="Createdatetime"/>
+<add name="ISVALID" property="Isvalid"/>
+<add name="ADCHILD_ID" property="AdchildId"/>
+<add name="CACHESPAN" property="Cachespan"/>
+<add name="PAGE_URL" property="PageUrl"/>
+</columns>

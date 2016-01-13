@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="TITLE" property="Title"/>
+<add name="ORIGINALURL" property="Originalurl"/>
+<add name="SOURCE" property="Source"/>
+<add name="CONTENT" property="Content"/>
+<add name="CREATETIME" property="Createtime"/>
+<add name="CATEGORYID" property="Categoryid"/>
+<add name="PARENTID" property="Parentid"/>
+<add name="UPDATETIME" property="Updatetime"/>
+<add name="STATUS" property="Status"/>
+<add name="ARTICLEID" property="Articleid"/>
+<add name="ISOWNERARTICLE" property="Isownerarticle"/>
+</columns>

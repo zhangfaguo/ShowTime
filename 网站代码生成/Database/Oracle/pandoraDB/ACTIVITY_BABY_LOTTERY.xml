@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="USERLOGINID" property="Userloginid"/>
+<add name="LOTTERYDATE" property="Lotterydate"/>
+<add name="NAME" property="Name"/>
+<add name="PHONE" property="Phone"/>
+<add name="ADDRESS" property="Address"/>
+<add name="LOTTERYLEVEL" property="Lotterylevel"/>
+</columns>

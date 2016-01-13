@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="KEYNAME" property="KeyName"/>
+<add name="TITLE" property="Title"/>
+<add name="MAXIMUM" property="Maximum"/>
+<add name="CACHETIME" property="CacheTime"/>
+<add name="EXTEND" property="Extend"/>
+<add name="TEMPLATE" property="Template"/>
+<add name="ISVALID" property="IsValid"/>
+<add name="RECOMMENDTYPE" property="RecommendType"/>
+<add name="RECOMMENDCATEGORY_ID" property="RecommendCategoryId"/>
+<add name="TEMPLATE2" property="Template2"/>
+<add name="MINIMUM" property="Minimum"/>
+</columns>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="TITLE" property="Title"/>
+<add name="STARTTIME" property="StartTime"/>
+<add name="ENDTIME" property="EndTime"/>
+<add name="VIEWLEVEL" property="ViewLevel"/>
+<add name="SPEEKLEVEL" property="SpeekLevel"/>
+<add name="REFRESHTIME" property="RefreshTime"/>
+<add name="AUDITROLE" property="AuditRole"/>
+<add name="ADMIN_ID" property="AdminId"/>
+<add name="CREATETIME" property="CreateTime"/>
+<add name="AUDITADMIN_ID" property="AuditAdminId"/>
+<add name="AUDITDATETIME" property="AuditDateTime"/>
+<add name="STATE" property="State"/>
+<add name="ISVALID" property="IsValid"/>
+<add name="AD" property="Ad"/>
+<add name="LIVEINTERVIEWSIZE" property="LiveInterviewSize"/>
+<add name="LIVEMESSAGESIZE" property="LiveMessageSize"/>
+<add name="INTERVIEWPAGESIZE" property="InterviewPagesize"/>
+<add name="MESSAGEPAGESIZE" property="MessagePagesize"/>
+<add name="ONLINEUSERPAGESIZE" property="OnlineUserPagesize"/>
+<add name="MINEMESSAGEPAGESIZE" property="MineMessagePagesize"/>
+</columns>

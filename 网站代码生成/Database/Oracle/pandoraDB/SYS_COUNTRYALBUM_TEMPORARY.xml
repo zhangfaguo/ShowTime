@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="USER_ID" property="UserId"/>
+<add name="TITLES" property="Titles"/>
+<add name="DESCRIPTION" property="Description"/>
+<add name="CREATETIME" property="Createtime"/>
+<add name="AUDITSTATE" property="Auditstate"/>
+<add name="USERNAME" property="Username"/>
+<add name="COUNTRYALBUM_ID" property="CountryalbumId"/>
+<add name="DISMISSREASON" property="Dismissreason"/>
+</columns>

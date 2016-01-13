@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="USER_ID" property="UserId"/>
+<add name="COUNTRYLOCATION_ID" property="CountrylocationId"/>
+<add name="POSITION" property="Position"/>
+<add name="EMAIL" property="Email"/>
+<add name="REALNAME" property="Realname"/>
+<add name="ISVALID" property="Isvalid"/>
+<add name="ADMIN_ID" property="AdminId"/>
+</columns>

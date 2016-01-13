@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="SEQNUMBER" property="Seqnumber"/>
+<add name="PARENTID" property="Parentid"/>
+<add name="NAME" property="Name"/>
+<add name="LEVELS" property="Levels"/>
+<add name="LEVEL1NAME" property="Level1name"/>
+<add name="LEVEL2NAME" property="Level2name"/>
+<add name="LEVEL3NAME" property="Level3name"/>
+<add name="LEVEL4NAME" property="Level4name"/>
+<add name="LEVEL5NAME" property="Level5name"/>
+<add name="CREATETIME" property="Createtime"/>
+<add name="UPDATETIME" property="Updatetime"/>
+</columns>

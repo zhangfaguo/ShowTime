@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="SOURCEID" property="SourceId"/>
+<add name="USER_ID" property="UserId"/>
+<add name="SESSIONID" property="SessionId"/>
+<add name="SOURCETYPE" property="SourceType"/>
+<add name="CREATETIME" property="CreateTime"/>
+</columns>

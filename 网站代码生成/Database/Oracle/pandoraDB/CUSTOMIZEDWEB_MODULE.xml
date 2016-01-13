@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="BASICSID" property="Basicsid"/>
+<add name="MODEID" property="Modeid"/>
+<add name="MODENAME" property="Modename"/>
+<add name="MODESIZE" property="Modesize"/>
+<add name="MODESTART" property="Modestart"/>
+<add name="MODEFINISH" property="Modefinish"/>
+<add name="MOREURL" property="Moreurl"/>
+<add name="ISBORDER" property="Isborder"/>
+</columns>

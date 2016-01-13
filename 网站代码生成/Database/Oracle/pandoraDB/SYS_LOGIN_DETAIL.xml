@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="USER_ID" property="UserId"/>
+<add name="LOGINDATETIME" property="Logindatetime"/>
+<add name="LOGINIP" property="Loginip"/>
+<add name="LOGINSTAYTIME" property="Loginstaytime"/>
+<add name="LOGOUTDATETIME" property="Logoutdatetime"/>
+</columns>

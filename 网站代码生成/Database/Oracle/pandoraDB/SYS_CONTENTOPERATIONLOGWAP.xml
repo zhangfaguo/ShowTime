@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="ADMIN_ID" property="AdminId"/>
+<add name="ENUMBUSINESSTYPE" property="Enumbusinesstype"/>
+<add name="OPERATIONITEMID" property="Operationitemid"/>
+<add name="OPERATIONDATE" property="Operationdate"/>
+<add name="ENUMBUSINESSOPERATIONTYPE" property="Enumbusinessoperationtype"/>
+<add name="REMARK" property="Remark"/>
+<add name="IP" property="Ip"/>
+<add name="LASTACTIVETIME" property="Lastactivetime"/>
+</columns>

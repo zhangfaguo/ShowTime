@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="NAME" property="Name"/>
+<add name="PARENTID" property="Parentid"/>
+<add name="ISLEAF" property="Isleaf"/>
+<add name="BINDPANEL" property="Bindpanel"/>
+<add name="SORT" property="Sort"/>
+<add name="ISBUTTON" property="Isbutton"/>
+</columns>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="Id" property="Id"/>
+<add name="UserId" property="UserId"/>
+<add name="AcceptState" property="AcceptState"/>
+<add name="AcceptUserId" property="AcceptUserId"/>
+<add name="AcceptTime" property="AcceptTime"/>
+<add name="AcceptMessage" property="AcceptMessage"/>
+</columns>

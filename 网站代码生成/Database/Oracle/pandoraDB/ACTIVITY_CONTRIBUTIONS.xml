@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="TITLE" property="Title"/>
+<add name="FILEPATH" property="Filepath"/>
+<add name="USER_ID" property="UserId"/>
+<add name="PHONE" property="Phone"/>
+<add name="CREATETIME" property="Createtime"/>
+<add name="STATE" property="State"/>
+<add name="OPERATOR" property="Operator"/>
+<add name="OPERATTIME" property="Operattime"/>
+<add name="ACTIVITY_CODE" property="ActivityCode"/>
+</columns>

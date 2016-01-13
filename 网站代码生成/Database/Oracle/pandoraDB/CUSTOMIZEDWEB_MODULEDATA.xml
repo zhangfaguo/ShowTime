@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="TITLE" property="Title"/>
+<add name="PRICE" property="Price"/>
+<add name="ABSTRACT" property="Abstract"/>
+<add name="HREURL" property="Hreurl"/>
+<add name="PIC" property="Pic"/>
+<add name="MODULEID" property="Moduleid"/>
+</columns>

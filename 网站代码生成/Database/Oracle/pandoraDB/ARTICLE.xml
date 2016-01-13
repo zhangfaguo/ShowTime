@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ARTICLE_ID" property="ArticleId"/>
+<add name="ARTICLE_NAME" property="ArticleName"/>
+<add name="ARTICLE_DESC" property="ArticleDesc"/>
+<add name="DATE_ADDED" property="DateAdded"/>
+</columns>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="USER_ID" property="UserId"/>
+<add name="LOGINNAME" property="Loginname"/>
+<add name="TYPEID" property="Typeid"/>
+</columns>

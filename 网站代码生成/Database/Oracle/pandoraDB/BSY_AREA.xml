@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="AREAID" property="Areaid"/>
+<add name="PARENTID" property="Parentid"/>
+<add name="NAME" property="Name"/>
+<add name="CODE" property="Code"/>
+<add name="BSY_AREAID" property="BsyAreaid"/>
+<add name="LEVELCODE" property="Levelcode"/>
+</columns>

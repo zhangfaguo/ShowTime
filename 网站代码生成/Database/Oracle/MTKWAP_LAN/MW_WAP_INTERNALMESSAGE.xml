@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="USER_ID" property="UserId"/>
+<add name="SENDUSER_ID" property="SenduserId"/>
+<add name="TITLE" property="Title"/>
+<add name="CONTENTS" property="Contents"/>
+<add name="AUDITDATETIME" property="AuditDateTime"/>
+<add name="AUDITADMIN_ID" property="AuditAdminId"/>
+<add name="AUDITREASON" property="AuditReason"/>
+<add name="STATE" property="State"/>
+<add name="RECEIVESTATE" property="ReceiveState"/>
+<add name="SENDSTATE" property="SendState"/>
+<add name="CREATETIME" property="CreateTime"/>
+<add name="ISVALID" property="IsValid"/>
+</columns>

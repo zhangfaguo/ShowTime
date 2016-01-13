@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="NAME" property="Name"/>
+<add name="DURATION" property="Duration"/>
+<add name="COUNT" property="Count"/>
+<add name="CREATETIME" property="Createtime"/>
+<add name="ISVALID" property="Isvalid"/>
+<add name="ADMINID" property="Adminid"/>
+</columns>

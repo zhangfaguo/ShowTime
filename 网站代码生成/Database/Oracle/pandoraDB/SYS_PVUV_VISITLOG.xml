@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="USERAGENT" property="Useragent"/>
+<add name="IP" property="Ip"/>
+<add name="URL" property="Url"/>
+<add name="CREATETIME" property="Createtime"/>
+<add name="LASTURL" property="Lasturl"/>
+<add name="PROVINCE" property="Province"/>
+<add name="BROWSERTYPE" property="Browsertype"/>
+<add name="PCTYPE" property="Pctype"/>
+<add name="EXECUTTIME" property="Executtime"/>
+<add name="CONNECTIONMARK" property="Connectionmark"/>
+<add name="USERID" property="Userid"/>
+</columns>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="DOWNLOADID" property="Downloadid"/>
+<add name="DOWNLOADTIME" property="Downloadtime"/>
+<add name="IP" property="Ip"/>
+<add name="USER_ID" property="UserId"/>
+</columns>

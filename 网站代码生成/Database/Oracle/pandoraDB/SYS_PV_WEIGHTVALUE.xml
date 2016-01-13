@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="URL" property="Url"/>
+<add name="WEIGHTVALUE" property="Weightvalue"/>
+<add name="MATCHINGTYPE" property="Matchingtype"/>
+<add name="ISVALID" property="Isvalid"/>
+<add name="LASTEXECUTETIME" property="Lastexecutetime"/>
+<add name="NEXTEXECUTETIME" property="Nextexecutetime"/>
+</columns>

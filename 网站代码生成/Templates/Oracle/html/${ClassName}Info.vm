@@ -1,0 +1,51 @@
+﻿        function ${ClassName}Post() {
+#foreach($column in $Table.Columns)
+            var v_${column.Property} = $("#txt_${column.Property}").val();          
+#end
+
+
+
+            StringHelper.Post("/Tourism/${ClassName}AddOrEditPost", {
+#set($i=1)
+#foreach($column in $Table.Columns)
+#if($i<$Table.Columns.Count)
+                ${column.Property}: v_${column.Property},
+#else
+                ${column.Property}: v_${column.Property}
+#end
+#set($i=$i+1)
+#end
+
+            }, function (data, flag) {
+
+                switch (flag) {
+                    case "err":
+                        alert('抱歉，由于网络原因请求失败！');
+                        break;
+                    case "suc":
+                        switch (data.code) {
+                            case "yes":
+                                location.href = "/main/WenDa/QuestionResult?type=1";
+                                break;
+                            default:
+                                alert(data.msg);
+                                break;
+                        }
+                        break;
+                }
+            });
+        }
+
+
+
+
+
+#foreach($column in $Table.Columns)
+string v_${column.Property}=Request["${column.Property}"];           
+#end
+
+
+${ClassName}Info info=new ${ClassName}Info();
+#foreach($column in $Table.Columns)
+info.${column.Property}=v_${column.Property};          
+#end

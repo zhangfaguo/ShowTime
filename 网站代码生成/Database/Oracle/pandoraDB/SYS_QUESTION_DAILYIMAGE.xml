@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="DAILYID" property="Dailyid"/>
+<add name="IMAGEURL" property="Imageurl"/>
+<add name="TITLE" property="Title"/>
+<add name="LINKADDRESS" property="Linkaddress"/>
+<add name="CREATETIME" property="Createtime"/>
+<add name="SORTNUM" property="Sortnum"/>
+<add name="GOODCOUNT" property="Goodcount"/>
+</columns>

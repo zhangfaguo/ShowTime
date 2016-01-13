@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="PRODUCTNAME" property="Productname"/>
+<add name="PRODUCTCODE" property="Productcode"/>
+<add name="REQUESTER" property="Requester"/>
+<add name="PHONE" property="Phone"/>
+<add name="ADDRESS" property="Address"/>
+<add name="MICROBLOGID" property="Microblogid"/>
+<add name="AUDITSTATE" property="Auditstate"/>
+<add name="REQUESTTIME" property="Requesttime"/>
+<add name="AUDITTIME" property="Audittime"/>
+</columns>

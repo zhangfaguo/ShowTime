@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="Id" property="Id"/>
+<add name="Name" property="Name"/>
+<add name="PassWord" property="PassWord"/>
+<add name="CreateTime" property="CreateTime"/>
+</columns>

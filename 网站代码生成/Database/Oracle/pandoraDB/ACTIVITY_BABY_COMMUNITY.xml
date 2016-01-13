@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="NAME" property="Name"/>
+<add name="AREA" property="Area"/>
+<add name="ADDRESS" property="Address"/>
+<add name="ADDDATE" property="Adddate"/>
+<add name="ISVALID" property="Isvalid"/>
+</columns>

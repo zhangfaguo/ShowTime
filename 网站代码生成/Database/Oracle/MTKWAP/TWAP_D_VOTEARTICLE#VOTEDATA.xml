@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="VOTEARTICLEVOTE_ID" property="VoteArticleVoteId"/>
+<add name="ACTION" property="Action"/>
+<add name="SORTID" property="SortId"/>
+</columns>

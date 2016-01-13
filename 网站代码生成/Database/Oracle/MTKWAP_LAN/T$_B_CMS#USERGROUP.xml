@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="PID" property="Pid"/>
+<add name="NAME" property="Name"/>
+<add name="LEVELNAME" property="LevelName"/>
+<add name="LOGO" property="Logo"/>
+<add name="ISVALID" property="IsValid"/>
+<add name="LEVELNO" property="LevelNo"/>
+</columns>

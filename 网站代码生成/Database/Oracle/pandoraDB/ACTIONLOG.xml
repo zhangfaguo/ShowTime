@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="BUSINESSTYPE" property="Businesstype"/>
+<add name="ACTIONTYPE" property="Actiontype"/>
+<add name="USERID" property="Userid"/>
+<add name="IP" property="Ip"/>
+<add name="OPERATINGTIME" property="Operatingtime"/>
+<add name="OBJECTID" property="Objectid"/>
+<add name="OBJECTNAME" property="Objectname"/>
+<add name="PARENTOBJECTID" property="Parentobjectid"/>
+<add name="QUANTITY" property="Quantity"/>
+</columns>

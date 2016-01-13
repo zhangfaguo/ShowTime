@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="CHANNELID" property="Channelid"/>
+<add name="URL" property="Url"/>
+<add name="BEGINEFFECTTIME" property="Begineffecttime"/>
+<add name="ENDEFFECTTIME" property="Endeffecttime"/>
+<add name="TYPENAME" property="Typename"/>
+</columns>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="IMPRESSIONTYPE_ID" property="ImpressiontypeId"/>
+<add name="NAME" property="Name"/>
+<add name="SCORE" property="Score"/>
+</columns>

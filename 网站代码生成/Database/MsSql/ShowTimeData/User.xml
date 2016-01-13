@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="Id" property="Id"/>
+<add name="TelPhone" property="TelPhone"/>
+<add name="PassWord" property="PassWord"/>
+<add name="RealName" property="RealName"/>
+<add name="IdCard" property="IdCard"/>
+<add name="Adress" property="Adress"/>
+<add name="ReMark" property="ReMark"/>
+<add name="EMail" property="EMail"/>
+</columns>

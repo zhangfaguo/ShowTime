@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="NAME" property="Name"/>
+<add name="PASSWORD" property="Password"/>
+<add name="CREATETIME" property="Createtime"/>
+<add name="LOGINCOUNT" property="Logincount"/>
+<add name="LASTLOGINTIME" property="Lastlogintime"/>
+<add name="ISVALID" property="Isvalid"/>
+</columns>

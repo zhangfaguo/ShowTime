@@ -1,0 +1,151 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<div class="easyui-layout" data-options="fit:true">
+    <div data-options=" region:'west',split:true" style="width:30%;">
+        <table id="tabGroup" class="easyui-datagrid"
+               data-options="url:'/role/indexjson',method:'post',rownumbers:true,toolbar:'#tb',singleSelect:true,border:false,singleSelect:true,fit:true,fitColumns:true,onSelect:groupSelect">
+            <thead>
+                <tr>
+                    <th data-options="field:'name'" width="80%">用户组名称</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+
+    <div data-options="region:'center',iconCls:'icon-ok'">
+        <div class="easyui-panel" title="权限列表" data-options="iconCls:'icon-ok',tools:'#tbb'">
+
+            <ul id="tabPri" class="easyui-tree" data-options="url:'/role/FunIndexJson',method:'post',animate:true,checkbox:true,cascadeCheck:true"></ul>
+        </div>
+    </div>
+</div>
+
+<div id="tb">
+    <div>
+        <a href="javascript:void(0)" class="easyui-linkbutton" id="btnAddGroup" onclick="$('#dlg').dialog('open'); " data-options="iconCls:'icon-add',plain:true">添加用户组</a>
+    </div>
+</div>
+
+<div id="tbb">
+    <a href="javascript:void(0)" class="icon-save" id="btnSavePri" ></a>
+</div>
+@Html.Hidden("selectId")
+
+<div id="dlg" class="easyui-dialog" title="添加用户组" style="width:450px;height:150px;"
+     data-options="iconCls:'icon-save',buttons: '#dlg-buttons',modal:true,closed:true">
+    <form id="ff" method="post">
+        <table cellpadding="5" align="center" width="90%">
+            <tbody>
+                <tr>
+                    <td>用户组名称：</td>
+                    <td>@Html.TextBox("Name")</td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</div>
+<div id="dlg-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-ok',plain:true" id="btnSubmit">提交</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-cancel',plain:true" id="btnCancel" onclick="$('#dlg').dialog('close');">取消</a>
+</div>
+
+<script type="text/javascript">
+    var postGroupName = function () {
+        $.ajax({
+            type: "post",
+            dataType: "json",
+            url: "/role/save",
+            data: { name: $('#Name').val() },
+            beforeSend: function () {
+                $.messager.progress();
+            },
+            success: function (result, status) {
+                $.messager.progress('close');
+                if (result.Success) {
+                    $.messager.alert('Info', "操作成功");
+                    $("#dlg").dialog('close');
+                    $("#tabGroup").datagrid("reload");
+                } else {
+                    $.messager.alert('Error', result.Message);
+                }
+            },
+            error: function () {
+                $.messager.progress('close');
+                $.messager.alert('Error', "操作失败");
+            }
+        });
+    };
+    var sel = {};
+    var groupSelect = function (i, r) {
+        $("#tabPri").find(".tree-checkbox").removeClass("tree-checkbox0 tree-checkbox1");
+        $("#tabPri").find(".tree-checkbox").addClass("tree-checkbox0")
+        var id = r.id;
+        sel = r;
+        $("#selectId").val(id);
+        //if (r.id == 1) {
+        //    $("#tabPri").find(".tree-checkbox").addClass("tree-checkbox1");
+        //    return;
+        //}
+        var arr = r.codearr;
+        for (var i = 0; i < arr.length; i++) {
+            var node = $("#tabPri").tree("find", arr[i]);
+            $("#tabPri").tree("check", node.target);
+        }
+    };
+
+    var savePriv = function () {
+        var arr = $("#tabPri").tree("getChecked");
+
+        var id = $("#selectId").val();
+        if (id == "") {
+            $.messager.alert('Info', "请选择用户组!");
+            return;
+        }
+
+        if (arr.length == 0) {
+            $.messager.alert('Info', "请选择菜单项!");
+            return;
+        }
+
+        var d = [];
+
+        for (var i = 0; i < arr.length; i++) {
+            d.push(arr[i].id);
+        }
+        sel.codearr = d;
+        var par = { Id: $("#selectId").val(), Ids: d };
+        $.ajax({
+            type: "post",
+            dataType: "json",
+            url: "/role/savepri",
+            data: mvcParamMatch(par),
+            beforeSend: function () {
+                $.messager.progress();
+            },
+            success: function (result, status) {
+                $.messager.progress('close');
+                if (result.Success) {
+                    $.messager.alert('Info', "操作成功");
+                    $("#dlg").dialog('close');
+                    $("#tabGroup").datagrid("reload");
+                } else {
+                    $.messager.alert('Error', result.Message);
+                }
+            },
+            error: function () {
+                $.messager.progress('close');
+                $.messager.alert('Error', "操作失败");
+            }
+        });
+    };
+    $(function () {
+        $("#btnSubmit").on("click", postGroupName);
+        $("#btnSavePri").on("click", savePriv);
+    });
+</script>
+
+
+
+

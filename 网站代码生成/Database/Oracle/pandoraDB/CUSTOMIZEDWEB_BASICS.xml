@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="NAME" property="Name"/>
+<add name="TITLE" property="Title"/>
+<add name="KEYWORDS" property="Keywords"/>
+<add name="DESCRIPTIONS" property="Descriptions"/>
+<add name="BACKGROUNDPIC" property="Backgroundpic"/>
+<add name="BACKGROUNDALIGN" property="Backgroundalign"/>
+<add name="BANNERSPIC" property="Bannerspic"/>
+<add name="TEXTCONTENT" property="Textcontent"/>
+<add name="TEXTALIGN" property="Textalign"/>
+<add name="ADDTIME" property="Addtime"/>
+<add name="EDITORTIME" property="Editortime"/>
+<add name="ADMINID" property="Adminid"/>
+<add name="AUDITSTATE" property="Auditstate"/>
+<add name="CSSSKIN" property="Cssskin"/>
+<add name="BACKGROUNDCOLOR" property="Backgroundcolor"/>
+<add name="TITLEFONT" property="Titlefont"/>
+<add name="TITLEFONTSIZE" property="Titlefontsize"/>
+<add name="CONTENTFONT" property="Contentfont"/>
+<add name="CONTENTFONTSIZE" property="Contentfontsize"/>
+<add name="BORDERCSS" property="Bordercss"/>
+<add name="WEBWIDTH" property="Webwidth"/>
+<add name="WEBHEIGHT" property="Webheight"/>
+</columns>

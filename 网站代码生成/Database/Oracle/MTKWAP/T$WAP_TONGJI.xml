@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="CRATRTIME" property="CratrTime"/>
+<add name="PHONEDETILE" property="PhoneDetile"/>
+<add name="URLNAME" property="UrlName"/>
+</columns>

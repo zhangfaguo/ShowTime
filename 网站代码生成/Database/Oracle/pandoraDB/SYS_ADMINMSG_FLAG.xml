@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="ADMINMESSAGE_ID" property="AdminmessageId"/>
+<add name="USER_ID" property="UserId"/>
+<add name="FLAG" property="Flag"/>
+<add name="CREATEDATE" property="Createdate"/>
+</columns>

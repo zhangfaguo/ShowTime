@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="LUCKYDRAW_ID" property="LuckyDrawId"/>
+<add name="PRIZE_ID" property="PrizeId"/>
+<add name="CREDIT" property="Credit"/>
+<add name="USER_ID" property="UserId"/>
+<add name="SESSIONID" property="SessionId"/>
+<add name="CREATETIME" property="CreateTime"/>
+</columns>

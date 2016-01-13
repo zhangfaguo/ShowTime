@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="USER_ID" property="UserId"/>
+<add name="INTEGRAL_CHANGE" property="IntegralChange"/>
+<add name="RECORD_TIME" property="RecordTime"/>
+<add name="TYPE" property="Type"/>
+<add name="DESCRIPTION" property="Description"/>
+</columns>

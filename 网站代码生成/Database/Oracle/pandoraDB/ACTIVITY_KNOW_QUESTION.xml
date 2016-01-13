@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="NAMELEVEL" property="Namelevel"/>
+<add name="PARENTID" property="Parentid"/>
+<add name="BYNAME" property="Byname"/>
+<add name="ANSWERBYNAME" property="Answerbyname"/>
+</columns>

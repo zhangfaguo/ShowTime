@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="TYPE" property="Type"/>
+<add name="TRANSNUMBER" property="Transnumber"/>
+<add name="STARTSTATION" property="Startstation"/>
+<add name="ENDSTATION" property="Endstation"/>
+<add name="STARTTIME" property="Starttime"/>
+<add name="ENDTIME" property="Endtime"/>
+<add name="DETAIL" property="Detail"/>
+<add name="STATUS" property="Status"/>
+<add name="ISVALID" property="Isvalid"/>
+</columns>

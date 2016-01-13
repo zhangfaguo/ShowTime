@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <script src="/Scripts/jquery-1.11.3.js" type="text/javascript"></script>
+    <script src="/Scripts/json2.js" type="text/javascript"></script>
+    <script src="/Scripts/artDialog/dialog-min.js" type="text/javascript"></script>
+    <link href="/Scripts/artDialog/ui-dialog.css" type="text/css" rel="stylesheet" />
+    <link href="/content/base.css" rel="stylesheet" type="text/css" />
+    <link href="/Scripts/easyui/themes/default/easyui.css" rel="stylesheet" type="text/css" />
+    <link href="/Scripts/easyui/themes/icon.css" rel="stylesheet" type="text/css" />
+    <script src="/Scripts/easyui/jquery.easyui.min.js" type="text/javascript"></script>
+    <script src="/Scripts/easyui/locale/easyui-lang-zh_CN.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.form.js" type="text/javascript"></script>
+    <script src="/Scripts/easyui/jquery.datagrid.extend.js" type="text/javascript"></script>
+    <script src="/Scripts/bui/page.js"></script>
+    <script src="/Scripts/mvcParamMatch.js"></script>
+    <script src="/scripts/FromSerialize.js"></script>
+    @RenderSection("Head", false)
+</head>
+<body>
+    @StackExchange.Profiling.MiniProfiler.RenderIncludes(null, null, null, null, null, null, false, true)
+    @RenderBody()
+</body>
+</html>

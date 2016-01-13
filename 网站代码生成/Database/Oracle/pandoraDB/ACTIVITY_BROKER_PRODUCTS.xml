@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="PRODUCTNAME" property="Productname"/>
+<add name="PRODUCTCODE" property="Productcode"/>
+<add name="CATEGORYCODE" property="Categorycode"/>
+<add name="IMAGEURL" property="Imageurl"/>
+<add name="MARKETPRICE" property="Marketprice"/>
+<add name="PRICE" property="Price"/>
+<add name="QUANTITY" property="Quantity"/>
+<add name="GIVECHARGE" property="Givecharge"/>
+</columns>

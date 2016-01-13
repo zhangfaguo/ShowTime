@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="NAME" property="Name"/>
+<add name="PARENTID" property="Parentid"/>
+<add name="SORTID" property="Sortid"/>
+<add name="LEVELS" property="Levels"/>
+<add name="ISLEAF" property="Isleaf"/>
+<add name="CREATETIME" property="Createtime"/>
+<add name="ADMIN_ID" property="AdminId"/>
+<add name="DESCRIPTION" property="Description"/>
+<add name="ISVALID" property="Isvalid"/>
+</columns>

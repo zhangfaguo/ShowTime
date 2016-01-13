@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="CONTENTS" property="Contents"/>
+<add name="ADMIN_ID" property="AdminId"/>
+<add name="CREATETIME" property="Createtime"/>
+<add name="LASTMODIFYADMIN_ID" property="LastmodifyadminId"/>
+<add name="LASTMODIFYTIME" property="Lastmodifytime"/>
+<add name="TYPEID" property="Typeid"/>
+</columns>

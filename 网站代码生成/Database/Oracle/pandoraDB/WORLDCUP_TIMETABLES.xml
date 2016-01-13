@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="GROUPING" property="Grouping"/>
+<add name="STAGE" property="Stage"/>
+<add name="HOME_TEAM_ID" property="HomeTeamId"/>
+<add name="GUEST_TEAM_ID" property="GuestTeamId"/>
+<add name="PLAY_TIME" property="PlayTime"/>
+<add name="HOME_SCORE" property="HomeScore"/>
+<add name="GUEST_SCORE" property="GuestScore"/>
+<add name="WIN_ODDS" property="WinOdds"/>
+<add name="DRAW_ODDS" property="DrawOdds"/>
+<add name="NEGATIVE_ODDS" property="NegativeOdds"/>
+<add name="HOME_INTEGRAL" property="HomeIntegral"/>
+<add name="GUEST_INTEGRAL" property="GuestIntegral"/>
+<add name="HOME_TEAM_NAME" property="HomeTeamName"/>
+<add name="GUEST_TEAM_NAME" property="GuestTeamName"/>
+</columns>

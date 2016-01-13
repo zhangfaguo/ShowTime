@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="KEYNAME" property="Keyname"/>
+<add name="AD_ID" property="AdId"/>
+<add name="WEBSITE_ID" property="WebsiteId"/>
+<add name="ISPARENT" property="Isparent"/>
+<add name="CONTENT" property="Content"/>
+<add name="STARTDATETIME" property="Startdatetime"/>
+<add name="ENDDATETIME" property="Enddatetime"/>
+<add name="SUMMARY" property="Summary"/>
+<add name="CACHESPAN" property="Cachespan"/>
+</columns>

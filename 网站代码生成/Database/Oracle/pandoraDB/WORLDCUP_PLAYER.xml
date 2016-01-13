@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="NAME" property="Name"/>
+<add name="NO" property="No"/>
+<add name="POSITIONS" property="Positions"/>
+<add name="TEAM_ID" property="TeamId"/>
+<add name="GOLDEN_BALL" property="GoldenBall"/>
+<add name="GOLDEN_SHOE" property="GoldenShoe"/>
+</columns>

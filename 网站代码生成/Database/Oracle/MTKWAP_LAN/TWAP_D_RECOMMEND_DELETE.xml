@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="RECOMMEND_ID" property="RecommendId"/>
+<add name="SOURCE_ID" property="SourceId"/>
+</columns>

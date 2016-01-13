@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="ID"/>
+<add name="Create" property="Create"/>
+<add name="Message" property="Message"/>
+<add name="Express" property="Express"/>
+<add name="UserId" property="UserId"/>
+</columns>

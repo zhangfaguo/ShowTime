@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="XMLCONTENTS" property="Xmlcontents"/>
+<add name="PHONENUMBER" property="Phonenumber"/>
+<add name="REPLYPHONENUMBER" property="Replyphonenumber"/>
+<add name="CONTENTS" property="Contents"/>
+<add name="CREATETIME" property="Createtime"/>
+<add name="FAILUREREASON" property="Failurereason"/>
+<add name="STATUS" property="Status"/>
+<add name="ISVALID" property="Isvalid"/>
+</columns>

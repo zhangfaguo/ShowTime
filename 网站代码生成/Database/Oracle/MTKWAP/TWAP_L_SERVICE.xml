@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="USERNAME" property="Username"/>
+<add name="BUSINESSID" property="BusinessId"/>
+<add name="SERVICENAME" property="ServiceName"/>
+<add name="ACTIONNAME" property="ActionName"/>
+<add name="INPUTDATA" property="InputData"/>
+<add name="OUTPUTDATA" property="OutputData"/>
+<add name="STATUS" property="Status"/>
+<add name="RESULTNUMBER" property="ResultNumber"/>
+<add name="EXCEPTIONMESSAGE" property="ExceptionMessage"/>
+<add name="CREATETIME" property="CreateTime"/>
+<add name="STACKTRACE" property="StackTrace"/>
+</columns>

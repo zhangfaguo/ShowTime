@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="LIVE_ID" property="LiveId"/>
+<add name="TITLE" property="Title"/>
+<add name="CONTENT" property="Content"/>
+<add name="ISVALID" property="IsValid"/>
+</columns>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="NAME" property="Name"/>
+<add name="LINK" property="Link"/>
+<add name="TARGET" property="Target"/>
+<add name="SPACENAME" property="Spacename"/>
+<add name="SPACELINK" property="Spacelink"/>
+<add name="ISDEFAULT" property="Isdefault"/>
+<add name="ORDERID" property="Orderid"/>
+<add name="CSSNAME" property="Cssname"/>
+</columns>

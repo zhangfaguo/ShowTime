@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="SUMCOUNT" property="Sumcount"/>
+<add name="LASTUPTIME" property="Lastuptime"/>
+<add name="ACTIONCODE" property="Actioncode"/>
+</columns>

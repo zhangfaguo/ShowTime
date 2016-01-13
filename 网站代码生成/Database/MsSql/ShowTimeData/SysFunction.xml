@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="Id" property="Id"/>
+<add name="Name" property="Name"/>
+<add name="Style" property="Style"/>
+<add name="Parent" property="Parent"/>
+<add name="Area" property="Area"/>
+<add name="Controller" property="Controller"/>
+<add name="Action" property="Action"/>
+<add name="IsMenu" property="IsMenu"/>
+<add name="Create" property="Create"/>
+<add name="UserId" property="UserId"/>
+<add name="IsValid" property="IsValid"/>
+</columns>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="DAILYTIME" property="Dailytime"/>
+<add name="DAILYSTYLE" property="Dailystyle"/>
+<add name="USERID" property="Userid"/>
+<add name="EDITTIME" property="Edittime"/>
+<add name="EDITMARK" property="Editmark"/>
+<add name="CREATETIME" property="Createtime"/>
+</columns>

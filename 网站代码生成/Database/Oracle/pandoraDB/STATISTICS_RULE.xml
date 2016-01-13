@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="RULENAME" property="Rulename"/>
+<add name="EFFECTBENGINTIME" property="Effectbengintime"/>
+<add name="EFFECTENDTIME" property="Effectendtime"/>
+<add name="CHANNELID" property="Channelid"/>
+<add name="AUDITSTATE" property="Auditstate"/>
+<add name="RULETYPE" property="Ruletype"/>
+<add name="RULEVALUE" property="Rulevalue"/>
+<add name="OPERATETIME" property="Operatetime"/>
+</columns>

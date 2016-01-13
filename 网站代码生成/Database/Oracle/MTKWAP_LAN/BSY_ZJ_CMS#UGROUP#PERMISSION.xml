@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<columns>
+<add name="ID" property="Id"/>
+<add name="USERGROUP_ID" property="UsergroupId"/>
+<add name="PERMISSIONNAME" property="PermissionName"/>
+<add name="ADMIN_ID" property="AdminId"/>
+<add name="TYPE" property="Type"/>
+<add name="MENU_ID" property="MenuId"/>
+</columns>
