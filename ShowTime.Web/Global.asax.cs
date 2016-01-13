@@ -61,7 +61,6 @@ namespace ShowTime.Web
             //Unity Containt注入与配置
             RegistUnity();
 
-            var i = 1;
             AreaRegistration.RegisterAllAreas();
 
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
